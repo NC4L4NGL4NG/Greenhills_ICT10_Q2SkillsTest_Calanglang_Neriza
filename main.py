@@ -7,7 +7,7 @@ clubs = {
         "description": "A club for math  enthusiasts of all skill levels.",
         "meeting_time": "Every Monday 2:30-5:00 PM",
         "location": "Room 705",
-        "moderator": "Mr. Ferma",
+        "moderator": "Mr. Jale",
         "members": 20,
         "category": "Academic"
     },
@@ -16,7 +16,7 @@ clubs = {
         "description": "Experiments, discoveries, and exciting science activities.",
         "meeting_time": "Mondays & Thursdays 4:00-5:30 PM",
         "location": "Laboratory 1",
-        "moderator": "Mr. Alanano",
+        "moderator": "Mr. Antilado",
         "members": 10,
         "category": "Academic"
     },
@@ -67,3 +67,4 @@ def show_club_information(event=None):
     )
 
     display_box.textContent = info_text
+
