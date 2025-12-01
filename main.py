@@ -57,11 +57,11 @@ def show_club_information(event=None):
         f"Description: {club['description']}\n"
         f"Meeting Time: {club['meeting_time']}\n"
         f"Location: {club['location']}\n"
-        f"Advisor: {club['moderator']}\n"
         f"Number of Members: {club['members']}\n"
         f"Category: {club['category']}\n"
     )
 
     display_box.textContent = info_text
+
 
 
