@@ -7,7 +7,6 @@ clubs = {
         "description": "A club for math  enthusiasts of all skill levels.",
         "meeting_time": "Every Monday 2:30-5:00 PM",
         "location": "Room 705",
-        "moderator": "Mr. Jale",
         "members": 20,
         "category": "Academic"
     },
@@ -16,7 +15,6 @@ clubs = {
         "description": "Experiments, discoveries, and exciting science activities.",
         "meeting_time": "Mondays & Thursdays 4:00-5:30 PM",
         "location": "Laboratory 1",
-        "moderator": "Mr. Antilado",
         "members": 10,
         "category": "Academic"
     },
@@ -25,7 +23,6 @@ clubs = {
         "description": "A creative space for drawing, painting, and crafts.",
         "meeting_time": "Fridays 3:00-5:00 PM",
         "location": "Art Room (403)",
-        "moderator": "Ms. Suarez",
         "members": 25,
         "category": "Arts"
     },
@@ -34,7 +31,6 @@ clubs = {
         "description": "turn curiosity into action and spark change in their community. Explore history, politics, culture, and current issues while developing skills that shape both thought and action beyond the classroom!",
         "meeting_time": "Every Tuesday 2:00-4:00 PM",
         "location": "Room 708",
-        "moderator": "Mrs. Libramonte",
         "members": 18,
         "category": "Debating"
     }
@@ -67,4 +63,5 @@ def show_club_information(event=None):
     )
 
     display_box.textContent = info_text
+
 
